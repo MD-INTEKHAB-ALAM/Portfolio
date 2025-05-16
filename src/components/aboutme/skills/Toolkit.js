@@ -40,9 +40,6 @@ export default function Toolkit() {
                         <img src={cb} alt="" style={{width:'95%',height:'95%'}}/>
                     </Col>
                     <Col xs={4} md={2} className="tech-icons">
-                        <img src={pg} alt="" style={{width:'95%',height:'95%'}}/>
-                    </Col>
-                    <Col xs={4} md={2} className="tech-icons">
                         <img src={pm} alt="" style={{width:'95%',height:'95%'}}/>
                     </Col>
                     <Col xs={4} md={2} className="tech-icons">

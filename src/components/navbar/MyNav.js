@@ -35,11 +35,11 @@ export default function MyNav() {
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
-      <Container>
+      <Container>s
         <Navbar.Brand href="/">
           <div className="d-flex flex-row justify-content-between">
-          <img src="./g2.png" className="img-fluid logo" alt="brand" />
-          <h5 id='navhead' style={{ marginLeft:'21px',paddingTop:'6px',color:'#fbd9ad'}}>GURPREET SINGH</h5>
+          <img src="./md2.jpg" className="img-fluid logo rounded-circle" alt="brand" />
+          <h5 id='navhead' style={{ marginLeft:'21px',paddingTop:'6px',color:'#fbd9ad'}}>Md Intekhab Alam</h5>
           </div>
         </Navbar.Brand>
         <Navbar.Toggle

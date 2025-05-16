@@ -9,7 +9,6 @@ function Typing() {
                     "Developer",
                     "Software Engineer",
                     "Frontend Developer",
-                    "Backend Developer",
                 ],
                 autoStart: true,
                 loop: true,

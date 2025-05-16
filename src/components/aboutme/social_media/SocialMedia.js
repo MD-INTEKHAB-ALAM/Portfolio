@@ -19,46 +19,10 @@ export default function SocialMedia() {
                 <Row className="g-5">
                     <Col md={3}>
                         <a
-                            href="https://www.instagram.com/gurpreet_singh_18/"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="icon-colour  home-social-icons"
-                        >
-                    <Zoom cascade>
-                            <AiOutlineInstagram />
-                    </Zoom>
-                        </a>
-                    </Col>
-                    <Col md={3}>
-                        <a
-                            href="https://www.facebook.com/profile.php?id=100013495656880"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="icon-colour  home-social-icons"
-                        >
-                            <Zoom cascade>
-                            <AiFillFacebook />
-                            </Zoom>
-                        </a>
-                    </Col>
-                    <Col md={3}>
-                        <a
-                            href="https://www.twitter.com/#!/gurpreet_186/"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="icon-colour  home-social-icons"
-                        >
-                            <Zoom cascade>
-                            <AiOutlineTwitter />
-                            </Zoom>
-                        </a>
-                    </Col>
-                    <Col md={3}>
-                        <a
                             href="https://www.linkedin.com/in/gurpreetsingh18601"
                             target="_blank"
                             rel="noreferrer"
-                            className="icon-colour  home-social-icons"
+                            className="icon-colour home-social-icons d-flex justify-content-center align-items-center"
                         >
                             <Zoom cascade>
                             <AiFillLinkedin />

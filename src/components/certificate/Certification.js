@@ -27,7 +27,7 @@ export default function Certification() {
                                         <div className="cert-card">
                                             <div className="content">
                                                 <a
-                                                    href="https://www.coursera.org/account/accomplishments/verify/AW5FRG3MDS45"
+                                                    href="https://drive.google.com/file/d/1hxxM217q3ZwRcYeonuEipNq2FmLwzE9W/view?usp=sharing"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                 >
@@ -38,8 +38,8 @@ export default function Certification() {
                                                     >
                                                         {<img
                                                             className="logo_img"
-                                                            src={ucsc}
-                                                            alt={ucsc}
+                                                            src="https://miro.medium.com/v2/resize:fit:1400/1*ewtU3saCHetgATr9P1GPHg.jpeg"
+                                                            // alt={ucsc}
                                                         />}
 
                                                     </div>
@@ -52,13 +52,13 @@ export default function Certification() {
                                             </div>
                                             <div className="cert-body">
                                                 <h2 className="cert-body-title" style={{ fontWeight:700,color:'#fbd9ad' }}>
-                                                C for Everyone: Programming Fundamentals
+                                                Dsa with Java
                                                 </h2>
                                                 <h3
                                                     className="cert-body-subtitle"
                                                     style={{ color: '#eb90ff',marginBottom:'0px' }}
                                                 >
-                                                    -University of California, Santa Cruz
+                                                    -Coding Ninjas
                                                 </h3>
                                             </div>
                                         </div>
@@ -69,7 +69,7 @@ export default function Certification() {
                                         <div className="cert-card">
                                             <div className="content">
                                                 <a
-                                                    href="https://www.coursera.org/account/accomplishments/verify/ESAR5W3F6JPN"
+                                                    href="https://drive.google.com/file/d/11UBqx5VI_sf8WfGwdtyvEm4MjOTRBpTH/view?usp=sharing"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                 >
@@ -80,7 +80,7 @@ export default function Certification() {
                                                     >
                                                         {<img
                                                             className="logo_img"
-                                                            src={ufm}
+                                                            src="https://miro.medium.com/v2/resize:fit:1400/1*ewtU3saCHetgATr9P1GPHg.jpeg"
                                                             alt={ufm}
                                                         />}
 
@@ -94,13 +94,13 @@ export default function Certification() {
                                             </div>
                                             <div className="cert-body">
                                                 <h2 className="cert-body-title" style={{ fontWeight:700,color:'#fbd9ad' }}>
-                                                Programming for Everybody (Getting Started with Python)
+                                                FrontEnd Development
                                                 </h2>
                                                 <h3
                                                     className="cert-body-subtitle"
                                                     style={{ color: '#eb90ff',marginBottom:'0px' }}
                                                 >
-                                                    -University of Michigan
+                                                    -Coding Ninjas
                                                 </h3>
                                             </div>
                                         </div>
@@ -111,7 +111,7 @@ export default function Certification() {
                                         <div className="cert-card">
                                             <div className="content">
                                                 <a
-                                                    href="https://www.coursera.org/account/accomplishments/verify/YVNZ9DFKESM3"
+                                                    href="https://drive.google.com/file/d/1Hwo9pKr0UiwCJMJkX2QabaYKWiVWt4ti/view?usp=sharing"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                 >
@@ -122,8 +122,8 @@ export default function Certification() {
                                                     >
                                                         {<img
                                                             className="logo_img"
-                                                            src={ucsc}
-                                                            alt={ucsc}
+                                                            src="https://miro.medium.com/v2/resize:fit:1400/1*ewtU3saCHetgATr9P1GPHg.jpeg"
+                                                            alt={ucsc} 
                                                         />}
 
                                                     </div>
@@ -136,13 +136,13 @@ export default function Certification() {
                                             </div>
                                             <div className="cert-body">
                                                 <h2 className="cert-body-title" style={{ fontWeight:700,color:'#fbd9ad' }}>
-                                                C++ For C Programmers, Part A
+                                                Dsa with C++
                                                 </h2>
                                                 <h3
                                                     className="cert-body-subtitle"
                                                     style={{ color: '#eb90ff',marginBottom:'0px' }}
                                                 >
-                                                    -University of California, Santa Cruz
+                                                    -Coding Ninjas
                                                 </h3>
                                             </div>
                                         </div>

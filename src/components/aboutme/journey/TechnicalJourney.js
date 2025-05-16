@@ -28,7 +28,7 @@ function TechnicalJourney() {
                 iconStyle={{ background: 'rgb(78 22 112)', color: '#fbd9ad' }}
                 icon={<ComputerIcon />}
             >
-                <h3 className="vertical-timeline-element-title">C PROGRAMMING LANGUAGE</h3>
+                <h3 className="vertical-timeline-element-title">Java PROGRAMMING LANGUAGE</h3>
                 
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -40,17 +40,6 @@ function TechnicalJourney() {
                 icon={<ComputerIcon/>}
             >
                 <h3 className="vertical-timeline-element-title">C++ PROGRAMMING LANGUAGE</h3>
-
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                contentStyle={{ background: 'rgb(78 22 112)', color: '#fbd9ad' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(78 22 112)' }}
-                date=""
-                iconStyle={{ background: 'rgb(78 22 112)', color: '#fbd9ad' }}
-                icon={<DiPython />}
-            >
-                <h3 className="vertical-timeline-element-title">PYTHON</h3>
 
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -73,28 +62,6 @@ function TechnicalJourney() {
                 icon={<DiJavascript />}
             >
                 <h3 className="vertical-timeline-element-title">JAVASCRIPT</h3>
-
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                contentStyle={{ background: 'rgb(78 22 112)', color: '#fbd9ad' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(78 22 112)' }}
-                date=""
-                iconStyle={{ background: 'rgb(78 22 112)', color: '#fbd9ad' }}
-                icon={<DiDjango />}
-            >
-                <h3 className="vertical-timeline-element-title">DJANGO</h3>
-
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                contentStyle={{ background: 'rgb(78 22 112)', color: '#fbd9ad' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(78 22 112)' }}
-                date=""
-                iconStyle={{ background: 'rgb(78 22 112)', color: '#fbd9ad' }}
-                icon={<DiDjango />}
-            >
-                <h3 className="vertical-timeline-element-title">DJANGO REST FRAMEWORK</h3>
 
             </VerticalTimelineElement>
             <VerticalTimelineElement

@@ -15,7 +15,7 @@ export default function Ranking() {
                 <Row className="g-5">
                     <Col md={3}>
                         <a
-                            href="https://www.hackerrank.com/Gurpreet_Singh__"
+                            href="https://www.naukri.com/code360/profile/e1c64d65-e5bb-4733-ab8a-beebeb8c0c94"
                             target="_blank"
                             rel="noreferrer"
                             className="icon-colour  home-social-icons"

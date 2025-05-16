@@ -25,10 +25,6 @@ export default function Contactus() {
         }
 
         alert(`Thanks ${formData.name}, I will shortly connect with you!`)
-        axios.post('https://formspree.io/f/mnqwzopy', formData, {
-            Accept: 'application/json',
-        })
-        setFormData({})
     }
 
     return (
@@ -112,7 +108,7 @@ export default function Contactus() {
                                                 <FiAtSign />
                                             </div>
                                             <p style={{ color: '#fbd9ad' }}>
-                                                gurpreetsingh18601@gmail.com
+                                                intekhab8928@gmail.com
                                             </p>
                                         </a>
                                         <a
@@ -123,7 +119,7 @@ export default function Contactus() {
                                                 <FiPhone />
                                             </div>
                                             <p style={{ color: '#fbd9ad' }}>
-                                                +91 7697248268
+                                                +91 8928354780
                                             </p>
                                         </a>
                                         <a href="https://www.google.com/maps/place/Sant+Nagar,+Indore,+Madhya+Pradesh+452020/@22.674414,75.8729736,17z/data=!3m1!4b1!4m5!3m4!1s0x3962fcbe1ee8eb5d:0xa793cda2fbc7b9e!8m2!3d22.6732356!4d75.8744549"
@@ -134,14 +130,14 @@ export default function Contactus() {
                                                 <HiOutlineLocationMarker />
                                             </div>
                                             <p style={{ color: '#fbd9ad' }}>
-                                                Sant Nagar, Indore, Madhya Pradesh, India
+                                                Hebbal, Bengaluru, Karnataka
                                             </p>
                                         </div>
                                         </a>
                                     </div>
                                     <div className='contact-map'>
                                         <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7813.188311130596!2d75.87095066530652!3d22.674036230409094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcbe1ee8eb5d%3A0xa793cda2fbc7b9e!2sSant%20Nagar%2C%20Indore%2C%20Madhya%20Pradesh%20452020%2C%20India!5e0!3m2!1sen!2snp!4v1649242893536!5m2!1sen!2snp"
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15547.228464011056!2d77.61088974529983!3d13.047946296389476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae176e29b13739%3A0xe64bb86542642414!2sManayata%20Tech%20Park%2C%20Nagavara%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1747398456563!5m2!1sen!2sin"
                                             frameBorder='0'
                                             allowFullScreen=''
                                             aria-hidden='false'
@@ -150,6 +146,7 @@ export default function Contactus() {
                                             loading="lazy"
                                             className=''
                                         ></iframe>
+                                        
                                         
                                     </div>
                                     

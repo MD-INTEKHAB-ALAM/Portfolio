@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from '../../Particle'
 import Typing from './Typing'
 import Tilt from "react-parallax-tilt";
-import AboutmeContainer from '../../components/aboutme/AboutMeContainer';
+import AboutmeContainer from '../../components/aboutme/aboutmeContainer';
 import Fade from 'react-reveal/Fade';
 import {
     AiFillGithub,
@@ -29,7 +29,7 @@ export default function Home() {
 
                             <h1 className="heading-name">
                                 I'M
-                                <strong className="main-name"> GURPREET SINGH</strong>
+                                <strong className="main-name"> Md Intekhab Alam</strong>
                             </h1>
 
                             <div className="typing-homeclass">
@@ -39,7 +39,7 @@ export default function Home() {
                                 <ul className="homeaboutsociallinks">
                                     <li className="socialicons">
                                         <a
-                                            href="https://github.com/GURPREET-SINGH-18"
+                                            href="https://github.com/MD-INTEKHAB-ALAM"
                                             target="_blank"
                                             rel="noreferrer"
                                             className="iconcolour  homesocialicons"
@@ -49,17 +49,7 @@ export default function Home() {
                                     </li>
                                     <li className="socialicons">
                                         <a
-                                            href="https://www.twitter.com/#!/gurpreet_186/"
-                                            target="_blank"
-                                            rel="noreferrer"
-                                            className="iconcolour  homesocialicons"
-                                        >
-                                            <AiOutlineTwitter />
-                                        </a>
-                                    </li>
-                                    <li className="socialicons">
-                                        <a
-                                            href="https://www.linkedin.com/in/gurpreetsingh18601"
+                                            href="https://www.linkedin.com/in/md-intekhab-alam-728116229/"
                                             target="_blank"
                                             rel="noreferrer"
                                             className="iconcolour  homesocialicons"
@@ -67,36 +57,7 @@ export default function Home() {
                                             <FaLinkedinIn />
                                         </a>
                                     </li>
-                                    <li className="socialicons">
-                                        <a
-                                            href="https://www.instagram.com/gurpreet_singh_18/"
-                                            target="_blank"
-                                            rel="noreferrer"
-                                            className="iconcolour homesocialicons"
-                                        >
-                                            <AiFillInstagram />
-                                        </a>
-                                    </li>
-                                    <li className="socialicons">
-                                        <a
-                                            href="https://www.facebook.com/profile.php?id=100013495656880"
-                                            target="_blank"
-                                            rel="noreferrer"
-                                            className="iconcolour homesocialicons"
-                                        >
-                                            <FaFacebookF />
-                                        </a>
-                                    </li>
-                                    <li className="socialicons">
-                                        <a
-                                            href="mailto:gurpreetsingh18601@gmail.com/"
-                                            target="_blank"
-                                            rel="noreferrer"
-                                            className="iconcolour homesocialicons"
-                                        >
-                                            <FaGoogle />
-                                        </a>
-                                    </li>
+                                    
                                 </ul>
                             </div>
                                 
@@ -105,7 +66,7 @@ export default function Home() {
                             <div className="img-home-main">
                             <Tilt>
                                 <Fade cascade>
-                                    <img src="./g2.png" alt="home pic" className="img-fluid" />
+                                    <img src="./md.jpg" alt="home pic" className="img-fluid rounded-circle" />
                                 </Fade>
                             </Tilt>
                             </div>

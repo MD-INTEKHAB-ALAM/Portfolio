@@ -18,8 +18,8 @@ import EducationJourney from './components/aboutme/journey/EducationJourney';
 import CertificatePage from './pages/certificate_page/CertificatePage';
 import PersonalSkill from './components/aboutme/skills/PersonalSkill'
 import TechnicalSkill from './components/aboutme/skills/TechnicalSkill'
-import ComingSoon from './pages/comingsoon_page/ComingSoon'
-import Notfound from './pages/blogs_page/NotFound'
+import ComingSoon from './pages/comingsoon_page/comingsoon'
+import Notfound from './pages/blogs_page/notfound'
 import TechnicalJourney from './components/aboutme/journey/TechnicalJourney'
 import ProjectJourney from './components/aboutme/journey/ProjectJourney'
 import SocialMedia from './components/aboutme/social_media/SocialMedia'

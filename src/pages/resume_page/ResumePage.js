@@ -2,7 +2,7 @@ import { Container, Row,Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import Particle from '../../Particle';
-import pdf from "../../assets/Gurpreet_Singh_Resume.pdf";
+import pdf from "../../assets/Resume_.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import Zoom from 'react-reveal/Zoom';
@@ -10,7 +10,7 @@ import React, { useState, useEffect } from "react";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://drive.google.com/file/d/1AwI1Je_FzsoQmM6JjlixuQyDtt6-gR7A/preview";
+  "https://drive.google.com/file/d/1GcTWHuY9do9PyVs0wByBZqVT58TRXPJM/view?usp=drive_link";
 
 function Resume() {
   const [width, setWidth] = useState(1200);

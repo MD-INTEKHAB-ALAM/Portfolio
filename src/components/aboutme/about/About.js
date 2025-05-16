@@ -25,7 +25,7 @@ const About = () => {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C, C++, Javascript and Python. </b>
+                <b className="purple"> Java, C++, Javascript </b>
               </i>
               <br />
               <br />
@@ -36,7 +36,7 @@ const About = () => {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Django</b> and
+              with <b className="purple">NodeJs</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -51,7 +51,7 @@ const About = () => {
               <br />
               I also like to build RESTful APIs in  &nbsp;
               <i>
-                <b className="purple">Django & Django REST Framework </b> 
+                <b className="purple">NodeJs and ExpressJs</b> 
               </i>
             </p>
             </Fade>

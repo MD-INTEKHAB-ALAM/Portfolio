@@ -39,12 +39,12 @@ export default function Projects() {
                                                     id={'first'}
                                                     style={{ color: '#fbd9ad' }}
                                                 >
-                                                    G-Mart
+                                                    Shopper
                                                 </h2>
                                                 <img src={ec} alt={c} />
                                                 <div className='project--showcaseBtn'>
                                                     <a
-                                                        href={'https://github.com/GURPREET-SINGH-18/G-mart-E-commerce-website'}
+                                                        href={'https://stackblitz.com/~/github.com/MD-INTEKHAB-ALAM/Ecommerce_Website'}
                                                         target='_blank'
                                                         rel='noreferrer'
                                                         className={'iconBtn'}
@@ -57,7 +57,7 @@ export default function Projects() {
                                                         />
                                                     </a>
                                                     <a
-                                                        href={'https://github.com/GURPREET-SINGH-18/G-mart-E-commerce-website'}
+                                                        href={'https://stackblitz.com/~/github.com/MD-INTEKHAB-ALAM/Ecommerce_Website'}
                                                         target='_blank'
                                                         rel='noreferrer'
                                                         className={'iconBtn'}
@@ -79,7 +79,7 @@ export default function Projects() {
                                                     fontWeight:600
                                                 }}
                                             >
-                                                This website is a e-commerce platform like amazon or flipKart where user can buy any product here I have tried to add every feature I could here seller can also sell product and can add product.
+                                                Developed a high-performance E-commerce website using React with dynamic routing and efficient state management through Context API.Improved load times by 40% using lazy loading and code-splitting, resulting in a faster, more responsive user experience.
                                             </p>
                                             <div
                                                 className='project--lang'
@@ -89,7 +89,7 @@ export default function Projects() {
                                                     fontWeight:600
                                                 }}
                                             >
-                                                Django, HTML, CSS, JS
+                                                HTML, CSS, JS, REACT
                                             </div>
                                         </div>
                                     </Fade>
@@ -107,12 +107,12 @@ export default function Projects() {
                                                     id={'first'}
                                                     style={{ color: '#fbd9ad' }}
                                                 >
-                                                    Guru Library
+                                                    Inventory Management System
                                                 </h2>
                                                 <img src={ba} alt={c} />
                                                 <div className='project--showcaseBtn'>
                                                     <a
-                                                        href={'https://github.com/GURPREET-SINGH-18/Library-book-management-system'}
+                                                        href={'https://github.com/MD-INTEKHAB-ALAM/Inventory-Management'}
                                                         target='_blank'
                                                         rel='noreferrer'
                                                         className={'iconBtn'}
@@ -125,7 +125,7 @@ export default function Projects() {
                                                         />
                                                     </a>
                                                     <a
-                                                        href={'https://github.com/GURPREET-SINGH-18/Library-book-management-system'}
+                                                        href={'https://github.com/MD-INTEKHAB-ALAM/Inventory-Management'}
                                                         target='_blank'
                                                         rel='noreferrer'
                                                         className={'iconBtn'}
@@ -147,7 +147,7 @@ export default function Projects() {
                                                     fontWeight:600
                                                 }}
                                             >
-                                                This was my third project in Django. In this project I also performed all the CRUD operation with student information and book information. here we can also able to see which book is borrowed by which student and we can also update the status of borrowed book.
+                                                Built an Inventory Management System using Express.js following the MVC architecture to handle product operations efficiently.Enhanced the user interface with EJS templating and a responsive front end using HTML, CSS, and JavaScript for seamless inventory control.
                                             </p>
                                             <div
                                                 className='project--lang'
@@ -157,7 +157,7 @@ export default function Projects() {
                                                     fontWeight:600
                                                 }}
                                             >
-                                                Django, HTML, CSS, JS
+                                                NodeJs, ExpressJs, EJS
                                             </div>
                                         </div>
                                     </Fade>
@@ -175,12 +175,12 @@ export default function Projects() {
                                                     id={'first'}
                                                     style={{ color: '#fbd9ad' }}
                                                 >
-                                                    Weather Gyan
+                                                    Wander Play
                                                 </h2>
                                                 <img src={wa} alt={c} />
                                                 <div className='project--showcaseBtn'>
                                                     <a
-                                                        href={'https://gurpreet-singh-18.github.io/Weather_gyan_react/'}
+                                                        href={'https://github.com/MD-INTEKHAB-ALAM/WanderPlay'}
                                                         target='_blank'
                                                         rel='noreferrer'
                                                         className={'iconBtn'}
@@ -193,7 +193,7 @@ export default function Projects() {
                                                         />
                                                     </a>
                                                     <a
-                                                        href={'https://github.com/GURPREET-SINGH-18/Weather_gyan_react'}
+                                                        href={'https://github.com/MD-INTEKHAB-ALAM/WanderPlay'}
                                                         target='_blank'
                                                         rel='noreferrer'
                                                         className={'iconBtn'}
@@ -215,7 +215,7 @@ export default function Projects() {
                                                     fontWeight:600
                                                 }}
                                             >
-                                                This website is a Weather App. Which help to see current and weather forecast monthly and hourly across the globe. This website is build in React JS.
+                                                WanderPlay is a fun and interactive website featuring three games—Quiz, Emoji Guessing, and Rock-Paper-Scissors—built using HTML, CSS, and JavaScript.Designed to provide an engaging user experience with responsive design and smooth game interactions.
                                             </p>
                                             <div
                                                 className='project--lang'
@@ -225,7 +225,7 @@ export default function Projects() {
                                                     fontWeight:600
                                                 }}
                                             >
-                                                ReactJS, HTML, CSS, JS
+                                                HTML, CSS, JS
                                             </div>
                                         </div>
                                     </Fade>
@@ -243,12 +243,12 @@ export default function Projects() {
                                                     id={'first'}
                                                     style={{ color: '#fbd9ad' }}
                                                 >
-                                                    CricInfo
+                                                    BlogApp
                                                 </h2>
-                                                <img src={ci} alt={c} />
+                                                <img src="https://stackideas.com/images/apps/2429/logo.png"alt={c} />
                                                 <div className='project--showcaseBtn'>
                                                     <a
-                                                        href={'https://github.com/GURPREET-SINGH-18/IPL-Team-Viewer'}
+                                                        href={'https://stackblitz.com/~/github.com/MD-INTEKHAB-ALAM/BlogAppUsingFirebase'}
                                                         target='_blank'
                                                         rel='noreferrer'
                                                         className={'iconBtn'}
@@ -261,7 +261,7 @@ export default function Projects() {
                                                         />
                                                     </a>
                                                     <a
-                                                        href={'https://github.com/GURPREET-SINGH-18/IPL-Team-Viewer'}
+                                                        href={'https://stackblitz.com/~/github.com/MD-INTEKHAB-ALAM/BlogAppUsingFirebase'}
                                                         target='_blank'
                                                         rel='noreferrer'
                                                         className={'iconBtn'}
@@ -283,7 +283,7 @@ export default function Projects() {
                                                     fontWeight:600
                                                 }}
                                             >
-                                                This was my second project in Django. In this project I have implemented media settings and used Django forms with user authentication by login and Sign up.
+                                                Developed a dynamic blog application using React.js and Firebase Firestore, allowing real-time content updates and seamless user interaction.Implemented React Hooks for efficient state management and built a responsive UI for an optimized experience across all devices.
                                             </p>
                                             <div
                                                 className='project--lang'
@@ -293,7 +293,7 @@ export default function Projects() {
                                                     fontWeight:600
                                                 }}
                                             >
-                                                Django, HTML, CSS, JS
+                                                HTML, CSS, JS, REACT
                                             </div>
                                         </div>
                                     </Fade>
@@ -301,14 +301,6 @@ export default function Projects() {
                             </Row>
                         </Col>
                     </Row>
-                    <div className="blog--viewAll">
-                                <Link to="/projectspage">
-                                    <button className='btn btn-primary'>
-                                        View All
-                                        <HiArrowRight className='viewArr'   />
-                                    </button>
-                                </Link>
-                    </div>
                 </Container>
             </Container>
         </div>

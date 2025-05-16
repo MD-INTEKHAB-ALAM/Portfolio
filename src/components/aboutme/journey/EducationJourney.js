@@ -23,12 +23,12 @@ function EducationJourney() {
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: 'rgb(78 22 112)', color: '#fbd9ad' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(78 22 112)' }}
-                date="2004 - 2017"
+                date="2003 - 2016"
                 iconStyle={{ background: 'rgb(78 22 112)', color: '#fbd9ad' }}
                 icon={<SchoolIcon />}
             >
                 <h3 className="vertical-timeline-element-title">SECONDARY SCHOOLING</h3>
-                <h4 className="vertical-timeline-element-subtitle mt-2">St. Norbert School, Indore</h4>
+                <h4 className="vertical-timeline-element-subtitle mt-2">St Paul's High School</h4>
                 <p>
                     Studied here from Nursery to 10th class as a part of secondary schooling.
                 </p>
@@ -37,28 +37,42 @@ function EducationJourney() {
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: 'rgb(78 22 112)', color: '#fbd9ad' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(78 22 112)' }}
-                date="2017 - 2019"
+                date="2016 - 2018"
                 iconStyle={{ background: 'rgb(78 22 112)', color: '#fbd9ad' }}
                 icon={<SchoolIcon />}
             >
                 <h3 className="vertical-timeline-element-title">HIGHER SECONDARY SCHOOLING</h3>
-                <h4 className="vertical-timeline-element-subtitle mt-2">St. Norbert School, Indore</h4>
+                <h4 className="vertical-timeline-element-subtitle mt-2">Swami Vivekanand International School and Junior College</h4>
                 <p>
-                    Studied higher secondary schooling class 11th and 12th from CBSE Affiliated School.
+                    Studied higher secondary schooling class 11th and 12th from Svis Junior College
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: 'rgb(78 22 112)', color: '#fbd9ad' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(78 22 112)' }}
-                date="2019 - 2023"
+                date="2018 - 2021"
                 iconStyle={{ background: 'rgb(78 22 112)', color: '#fbd9ad' }}
                 icon={<SchoolIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Graduation</h3>
-                <h4 className="vertical-timeline-element-subtitle mt-2">Acropolis Institute of Technology and Research, Indore</h4>
+                <h4 className="vertical-timeline-element-subtitle mt-2">Usha Pravin Gandhi College of Management</h4>
                 <p>
-                    Currently pursuing Bachelor of Technology degree in Computer Science field from Acropolis Institute of Technology and Research, Indore 
+                    Completed Bsc in Information Technology from usha pravin Gandhi College of Management
+                </p>
+            </VerticalTimelineElement>
+             <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{ background: 'rgb(78 22 112)', color: '#fbd9ad' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(78 22 112)' }}
+                date="2022 - 2024"
+                iconStyle={{ background: 'rgb(78 22 112)', color: '#fbd9ad' }}
+                icon={<SchoolIcon />}
+            >
+                <h3 className="vertical-timeline-element-title">Post Graduation</h3>
+                <h4 className="vertical-timeline-element-subtitle mt-2">Atria Institute of Technology</h4>
+                <p>
+                    Completed Mca From Atria Institute of Technology
                 </p>
             </VerticalTimelineElement>
 
