@@ -33,7 +33,7 @@ function Resume() {
                     </div>
                     <div fluid className="certificate-section" id="about" >
                       <div className="d-flex justify-content-center mt-4">
-                        <Button variant="primary" href={pdf}  target="_blank">
+                        <Button variant="primary" href={pdf}  target="_blank" download>
                         <AiOutlineDownload />
                         &nbsp;Download CV
                         </Button>
@@ -42,12 +42,6 @@ function Resume() {
                         <Document file={pdf}>
                         <Page pageNumber={1} scale={width > 786 ? 1.6 : 0.4} />
                         </Document>
-                      </div>
-                      <div className="d-flex justify-content-center">
-                        <Button variant="primary" href={pdf} target="_blank">
-                        <AiOutlineDownload />
-                        &nbsp;Download CV
-                        </Button>
                       </div>
                     </div>
                 </Container>
