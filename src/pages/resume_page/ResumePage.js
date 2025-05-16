@@ -8,8 +8,8 @@ import Zoom from 'react-reveal/Zoom';
 import React, { useState, useEffect } from "react";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink = "/Resume_.pdf";
-
+const pdfPreview = "/Resume_.pdf"; // Local preview for react-pdf
+const resumeDownloadLink = "https://drive.google.com/uc?export=download&id=1GcTWHuY9do9PyVs0wByBZqVT58TRXPJM"; // External download
 function Resume() {
   const [width, setWidth] = useState(1200);
 
@@ -31,21 +31,15 @@ function Resume() {
                     </div>
                     <div fluid className="certificate-section" id="about" >
                       <div className="d-flex justify-content-center mt-4">
-                        <Button variant="primary" href={resumeLink}  target="_blank" download>
+                        <Button variant="primary" href={resumeDownloadLink}  target="_blank" download>
                         <AiOutlineDownload />
                         &nbsp;Download CV
                         </Button>
                       </div>
                       <div className="resume d-flex justify-content-center">
-                        <Document file={resumeLink}>
+                        <Document file={pdfPreview}>
                         <Page pageNumber={1} scale={width > 786 ? 1.6 : 0.4} />
                         </Document>
-                      </div>
-                      <div className="d-flex justify-content-center">
-                        <Button variant="primary" href={resumeLink} target="_blank">
-                        <AiOutlineDownload />
-                        &nbsp;Download CV
-                        </Button>
                       </div>
                     </div>
                 </Container>
