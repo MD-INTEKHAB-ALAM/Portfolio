@@ -1,37 +1,69 @@
-import React from 'react'
+import React from 'react';
 import {
-    AiOutlineInstagram,
-    AiFillFacebook,
-    AiOutlineTwitter,
-    AiFillLinkedin
+  AiOutlineInstagram,
+  AiFillFacebook,
+  AiOutlineTwitter,
+  AiFillLinkedin,
 } from "react-icons/ai";
-import { Container, Row } from 'react-bootstrap';
-import { Col } from 'react-bootstrap';
-import Zoom from 'react-reveal/Zoom';
+import { Container, Row, Col } from 'react-bootstrap';
+import { motion } from 'framer-motion';
+
+const containerVariants = {
+  hidden: { opacity: 0, x: -50 },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      staggerChildren: 0.2,
+      when: "beforeChildren",
+      ease: "easeOut",
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, scale: 0.8 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: { type: "spring", stiffness: 100 },
+  },
+};
 
 export default function SocialMedia() {
-    return (
-        <div className="mt-4">
-            <Zoom left cascade>
-            <h1>Connect with me</h1>
-            </Zoom>
-            <Container className="mt-5">
-                <Row className="g-5">
-                    <Col md={3}>
-                        <a
-                            href="https://www.linkedin.com/in/gurpreetsingh18601"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="icon-colour home-social-icons d-flex justify-content-center align-items-center"
-                        >
-                            <Zoom cascade>
-                            <AiFillLinkedin />
-                            </Zoom>
-                        </a>
-                    </Col>
-                </Row>
-            </Container>
+  return (
+    <div className="mt-4">
+      <motion.h1
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6 }}
+      >
+        Connect with me
+      </motion.h1>
 
-        </div>
-    )
+      <Container className="mt-5">
+        <motion.Row
+          className="g-5 justify-content-center"
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+        >
+          <Col md={3}>
+            <motion.a
+              href="https://www.linkedin.com/in/md-intekhab-alam-728116229/"
+              target="_blank"
+              rel="noreferrer"
+              className="icon-colour home-social-icons d-flex justify-content-center align-items-center"
+              variants={itemVariants}
+              whileHover={{ scale: 1.2, color: "#0077b5" }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <AiFillLinkedin size={50} />
+            </motion.a>
+          </Col>
+          {/* You can add other social icons similarly */}
+        </motion.Row>
+      </Container>
+    </div>
+  );
 }

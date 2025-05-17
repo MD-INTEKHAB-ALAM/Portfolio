@@ -12,7 +12,7 @@ import {
 import {FaBlog} from "react-icons/fa"
 import "../../style.css";
 import { CgFileDocument } from "react-icons/cg";
-import Certificate from '../certificate/Certificate';
+import mdImage from '../../assets/md.jpg';
 
 export default function MyNav() {
   const [expand, updateExpanded] = useState(false);
@@ -38,7 +38,7 @@ export default function MyNav() {
       <Container>s
         <Navbar.Brand href="/">
           <div className="d-flex flex-row justify-content-between">
-          <img src="./md2.jpg" className="img-fluid logo rounded-circle" alt="brand" />
+          <img src={mdImage} className="img-fluid logo rounded-circle" alt="brand" />
           <h5 id='navhead' style={{ marginLeft:'21px',paddingTop:'6px',color:'#fbd9ad'}}>Md Intekhab Alam</h5>
           </div>
         </Navbar.Brand>
@@ -82,16 +82,6 @@ export default function MyNav() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/certificatepage"
-                onClick={() => updateExpanded(false)}
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> Certifications
-              </Nav.Link>
-            </Nav.Item>
             
             <Nav.Item>
               <Nav.Link
@@ -105,7 +95,7 @@ export default function MyNav() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/GURPREET-SINGH-18/Personal-Portfolio-Website"
+                href="https://github.com/MD-INTEKHAB-ALAM"
                 target="_blank"
                 className="fork-btn-inner"
               >

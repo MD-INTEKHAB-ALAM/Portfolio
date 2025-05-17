@@ -4,18 +4,26 @@ import Particle from '../../Particle'
 import Typing from './Typing'
 import Tilt from "react-parallax-tilt";
 import AboutmeContainer from '../../components/aboutme/aboutmeContainer';
-import Fade from 'react-reveal/Fade';
+import { motion } from 'framer-motion';
 import {
     AiFillGithub,
-    AiOutlineTwitter,
     AiFillInstagram,
+    AiOutlineTwitter,
 } from "react-icons/ai";
-import { FaLinkedinIn,FaFacebookF,FaGoogle } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import Certification from '../../components/certificate/Certification';
 import Projects from '../../components/projects/Projects';
 import Contactus from '../../components/contactus/Contactus';
+import mdImage from '../../assets/md2.jpg';
+
 
 export default function Home() {
+    // Fade-in variant for the image
+    const fadeVariants = {
+        hidden: { opacity: 0 },
+        visible: { opacity: 1, transition: { duration: 1.2, ease: "easeInOut" } }
+    };
+
     return (
         <section className="home-section">
             <Container fluid id="home" >
@@ -57,26 +65,29 @@ export default function Home() {
                                             <FaLinkedinIn />
                                         </a>
                                     </li>
-                                    
                                 </ul>
                             </div>
-                                
                         </Col>
                         <Col md={4} style={{ paddingBottom: 20 }}>
                             <div className="img-home-main">
-                            <Tilt>
-                                <Fade cascade>
-                                    <img src="./md.jpg" alt="home pic" className="img-fluid rounded-circle" />
-                                </Fade>
-                            </Tilt>
+                                <Tilt>
+                                    <motion.img
+                                        src={mdImage}
+                                        alt="pic"
+                                        className="img-fluid rounded-circle"
+                                        variants={fadeVariants}
+                                        initial="hidden"
+                                        animate="visible"
+                                    />
+                                </Tilt>
                             </div>
                         </Col>
                     </Row>
                 </Container>
             </Container>
             <AboutmeContainer />
-            <Certification/>
-            <Projects/>
+            <Certification />
+            <Projects />
             <Contactus />
         </section>
     )
